@@ -31,8 +31,9 @@ vi config/default.hjson
 ```
 
 
-
-
+## note
+Please modify the name of your local server in the style files (htdocs/maps/style-*.json) if you want to see sample maps.  
+At the line 7, change "localhost" to "raspberrypi.local," "raspberrypi" or your own name.
 
 ## run
 ```console
