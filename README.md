@@ -39,6 +39,7 @@ At the line 7, change "localhost" to "raspberrypi.local," "raspberrypi" or your 
 ```console
 ./pmserve.sh
 ```
+You might need to change the file permission by chmod.  
 
 ## stop
 ```console
