@@ -9,4 +9,6 @@ sudo service xrdp restart
 sudo yarn global add browserify pm2 rollup
 git clone https://github.com/ubukawa/b-quartz
 cd b-quartz; npm install; cd ..
-
+#The following is for maplibre. there will be js and css in dist.
+git clone https://github.com/maplibre/maplibre-gl-js
+cd maplibre-gl-js; npm install; npm run build-prod-min; npm run build-css; cd ..
